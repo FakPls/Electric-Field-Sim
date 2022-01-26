@@ -1,19 +1,17 @@
-let testPoint;
+let testPoints = [];
 
 
 function setup() {
   createCanvas(400, 400);
-  testPoint = new Partcile(height/2, width/2);
+  for(let i = 0; i < 10; i++) {
+    for(let j = 0; j < 10; j++) {
+      testPoints[i] = create
+    }
+  }
 }
 
 function draw() {
   background(220);
+  testPoint.draw();
 }
 
-function Partcile(x, y) {
-  pos = createVector(x, y);
-
-  draw = function() {
-    circle(this.pos.x, this.pos.y, 10);
-  }
-}
