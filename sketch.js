@@ -5,7 +5,6 @@ let charge2;
 
 function setup() {
   createCanvas(800, 800);
-  colorMode(HSB);
 
   for(let i = 0; i < numPoints; i++) {
     for(let j = 0; j < numPoints; j++) {
@@ -16,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(80);
+  background(200);
 
   charge.draw();
   charge.update();
