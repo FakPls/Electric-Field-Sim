@@ -1,10 +1,10 @@
 let testPoints = [];
-let numPoints = 25;
+let numPoints = 30;
 let charge;
 let charge2;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowHeight, windowHeight);
 
   for(let i = 0; i < numPoints; i++) {
     for(let j = 0; j < numPoints; j++) {
